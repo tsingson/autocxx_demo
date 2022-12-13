@@ -5,11 +5,16 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+
 [dependencies]
-cxx = "1.0.83"
-autocxx = { version = "0.23.1" }
+cxx = "1.0.78"
+autocxx = {  version = "0.23.1" }
+uwuify = "0.2.2"
+textwrap = "0.16.0"
+fastrand = "1.5.0"
 
 [build-dependencies]
-autocxx-build = { version = "0.23.1" }
+autocxx-build = {  version = "0.23.1" }
+regex = "1.5.4"
 miette = { version = "5", features = ["fancy"] }
 
